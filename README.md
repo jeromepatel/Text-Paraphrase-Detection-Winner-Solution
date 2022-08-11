@@ -20,7 +20,7 @@ The idea is that cross encoders give better predictions/performance in sentence 
 
 ## Stage 2: Pretrained Cross Encoder
 ![stage 2 solution](documents/stage_2.png)
-* I used pre-trained cross encoder model: `paraphrase-multilingual-mpnet-base-v2`
+* I used pre-trained cross encoder model: `stsb-roberta-large`
 * Cross encoder directly takes pair as an input and outputs the pair confidence score
 * Used intermediate generated pairs to generate dense predictions using cross encoder
 * Applied thresholding to filter the pairs with high confidence score
@@ -43,4 +43,4 @@ Recall: 0.7294955122253173
 Precision: 0.8105226960110041
 F1-score: 0.7678775044795569
 ```
-This still achives the best score on leaderboard with rank 1.
+This still achieves the best score on leaderboard with rank 1.
