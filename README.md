@@ -1,5 +1,5 @@
 # Text-Paraphrase-Detection-Winner-Solution
-Two stage encoder based solution for paraphrase detection, achieved 1st rank in CRI-COMP-2022 Text Paraphrase Competition
+Two stage encoder based solution for paraphrase detection, achieved 1st rank in [CRI-COMP-2022 Text Paraphrase Competition](https://sites.google.com/g.syr.edu/cri-comp-2022/text-paraphrase-detection-challenge?authuser=0) ([leaderboard page](https://eval.ai/web/challenges/challenge-page/1636/overview))
 </br>
 This repository contains two staged solution for CRI-Competition 2022 using encoders. First stage uses fine-tuned bi-encoder to generate predictions. Second stage uses pretrained transformers to generate final dense prediction pairs.
 
